@@ -1,2 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<BorlandProject/>
+<BorlandProject>
+  <ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="EZClient.pas"/>
+    <File Path="MainForm.pas"/>
+    <File Path="MainForm.dfm"/>
+    <File Path="Version.pas"/>
+  </ProjectSortOrder>
+  <Transactions>
+    <Transaction>2017/06/12 17:24:51.204,=C:\Users\Eric\Documents\Projects\EZClientDelphi7\Unit1.pas</Transaction>
+    <Transaction>2017/06/12 17:25:13.576,C:\Users\Eric\Documents\Projects\EZClientDelphi7\Version.pas=C:\Users\Eric\Documents\Projects\EZClientDelphi7\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>
