@@ -11,4 +11,4 @@ All notable changes to this project will be documented in this file.
 ### Added
 - First version of the project
 
-[2.0.0.0]: https://github.com/EZTechBrasil/EZClientCSharp/tree/bf28688fbf0f96751a050b0385be6f9aa370ca6d
+[2.0.0.0]: https://github.com/EZTechBrasil/EZClientDelphi7/tree/9d72089e406080a13d629c0997cf9eade3f1712d
