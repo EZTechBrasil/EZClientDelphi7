@@ -31,5 +31,7 @@ For more details on APIs, download the development manual.
 [![Quickstart Manual](https://github.com/EZTechBrasil/EZClientCpp/blob/Eric/Pictures/Developer.png)](http://www.execweb.com.br/eztech/EZAdmin/downloads/ManualDesenvolvimento.pdf)
 
 ## Issues
-[![Issues](https://github.com/EZTechBrasil/EZClientCpp/blob/Eric/Pictures/issues.png)](https://github.com/EZTechBrasil/EZClientDelphi7/issues)
+
 Questions, report bugs and suggestions
+
+[![Issues](https://github.com/EZTechBrasil/EZClientCpp/blob/Eric/Pictures/issues2.png)](https://github.com/EZTechBrasil/EZClientDelphi7/issues)
