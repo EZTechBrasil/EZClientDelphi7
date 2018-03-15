@@ -772,6 +772,8 @@ type
 
   TAckLogEvent = function( ID : Integer ; ClientID : Integer ) : Integer; stdcall ;
 
+  TSetClientType = function( ID : Integer  ) : Integer; stdcall ;
+
 //------------------------------------------------------------------------------
 type
   TEZClient = class
@@ -1020,6 +1022,7 @@ type
     DeleteLogEvent : TDeleteLogEvent ;
     ClearLogEvent : TClearLogEvent ;
     AckLogEvent : TAckLogEvent ;
+    SetClientType : TSetClientType ;
 
     published
 
@@ -1971,6 +1974,8 @@ implementation
     @AckLogEvent := GetProcAddress(handle, 'AckLogEvent');
     if @AckLogEvent = nil  then  exit ;
 
+    @SetClientType := GetProcAddress(handle, 'SetClientType');
+    if @SetClientType = nil  then  exit ;
 //--------------------------------------------------------------------------------------//
 
     LoadDll := true  ;

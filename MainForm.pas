@@ -469,6 +469,9 @@ implementation
         edServerAddress.Enabled := false;
         chProcEvents.Enabled := false;
         btLogon.Caption := 'Logoff';
+
+        EZInterface.SetClientType(70);
+
         if GoodResult( EZInterface.SetDateTime( Now ) ) then
         begin
           WriteMessage('Data e Hora do concentrador atualizada com sucesso');
